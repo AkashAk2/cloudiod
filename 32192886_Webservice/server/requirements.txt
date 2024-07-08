@@ -1,0 +1,6 @@
+numpy
+opencv-python
+flask
+pillow
+pybase64
+requests
