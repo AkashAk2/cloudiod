@@ -8,8 +8,11 @@ The project is deployed within a containerized environment using Docker, and Kub
 **Key components of the project include:**
 
 **Web Service Development:** A multi-threaded Flask-based RESTful API that handles image uploads, processes them using YOLO and OpenCV, and returns detection results in JSON format.
+
 **Dockerization:** Creating a Docker image for the web service to ensure consistent and isolated execution across different environments.
+
 **Kubernetes Deployment:** Setting up a Kubernetes cluster on Oracle Cloud Infrastructure (OCI) with one controller and two worker nodes. The cluster runs multiple pods of the web service, managed through Kubernetes deployment and service configurations.
+
 **Load Testing and Performance Analysis:** Conducting experiments to evaluate the system's performance under varying loads and resources. This involves testing with different numbers of client threads and Kubernetes pods to measure the impact on response times.
 
 The project includes comprehensive documentation and a detailed report analyzing the performance metrics. Additionally, a video demonstration showcases the setup, configuration, and operation of the Cloudiod system, providing insights into its architecture and implementation.
